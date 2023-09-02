@@ -1,14 +1,9 @@
 import asyncio
-from asyncio import sleep
 from time import time
 from web3 import AsyncWeb3
 from async_client import Client
-from data.config import WALLETS, TOKEN_ABI, rpc
-from utils import read_json
+from data.config import WALLETS, rpc
 
-# token_abi = read_json(TOKEN_ABI)
-# token_address = '0x07865c6E87B9F70255377e024ace6630C1Eaa37F'  # USDC Goerli
-min_balance = 1
 
 print("=================================================================================================")
 
